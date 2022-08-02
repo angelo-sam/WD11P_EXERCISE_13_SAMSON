@@ -1,0 +1,14 @@
+{
+  "name": "wd11p_exercise_13_samson",
+  "version": "1.0.0",
+  "description": "This is for example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ANGELO SAMSON",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}

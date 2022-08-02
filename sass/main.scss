@@ -1,0 +1,16 @@
+$primary: blue;
+$warning: red;
+$info: orange;
+$dark: purple;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$Samson-theme-colors: (
+  "favorite1": red,
+  "favorite2": green,
+);
+
+$theme-colors: map-merge($Samson-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
